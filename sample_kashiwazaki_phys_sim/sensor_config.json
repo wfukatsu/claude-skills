@@ -1,0 +1,142 @@
+[
+  {
+    "sensor_id": "LPRM-A",
+    "sensor_type": "局所出力領域モニタ (LPRM)",
+    "location": "炉心内 (燃料集合体間, 4軸方向4レベル)",
+    "measurement_range": "0 - 125% 定格出力",
+    "resolution": "0.1%",
+    "alarm_setpoint": "高: 114%, 高高: 120%",
+    "normal_value": "60-100%",
+    "unit": "% rated"
+  },
+  {
+    "sensor_id": "APRM-A",
+    "sensor_type": "平均出力領域モニタ (APRM)",
+    "location": "LPRM信号の平均処理",
+    "measurement_range": "0 - 125% 定格出力",
+    "resolution": "0.1%",
+    "alarm_setpoint": "高: 114%, スクラム: 120%",
+    "normal_value": "100%",
+    "unit": "% rated"
+  },
+  {
+    "sensor_id": "TIP-A",
+    "sensor_type": "移動式炉内中性子検出器 (TIP)",
+    "location": "炉心内 (燃料集合体間を走査)",
+    "measurement_range": "0 - 150% 定格",
+    "resolution": "0.05%",
+    "alarm_setpoint": "N/A (定期計測用)",
+    "normal_value": "出力分布マップ参照",
+    "unit": "relative flux"
+  },
+  {
+    "sensor_id": "TC-COOLANT",
+    "sensor_type": "炉心出口温度計 (熱電対)",
+    "location": "圧力容器上部プレナム",
+    "measurement_range": "200 - 320 ℃",
+    "resolution": "0.5 ℃",
+    "alarm_setpoint": "高: 302 ℃",
+    "normal_value": "286 ℃",
+    "unit": "℃"
+  },
+  {
+    "sensor_id": "TC-FW",
+    "sensor_type": "給水温度計",
+    "location": "給水ノズル",
+    "measurement_range": "100 - 250 ℃",
+    "resolution": "0.5 ℃",
+    "alarm_setpoint": "低: 190 ℃, 高: 230 ℃",
+    "normal_value": "215.6 ℃",
+    "unit": "℃"
+  },
+  {
+    "sensor_id": "PT-RPV",
+    "sensor_type": "原子炉圧力計",
+    "location": "圧力容器",
+    "measurement_range": "0 - 10 MPa",
+    "resolution": "0.01 MPa",
+    "alarm_setpoint": "高: 7.58 MPa, スクラム: 7.72 MPa",
+    "normal_value": "7.07 MPa (1号機) / 7.17 MPa (5号機)",
+    "unit": "MPa"
+  },
+  {
+    "sensor_id": "DP-CORE",
+    "sensor_type": "炉心差圧計",
+    "location": "炉心入口-出口間",
+    "measurement_range": "0 - 0.3 MPa",
+    "resolution": "0.001 MPa",
+    "alarm_setpoint": "高: 0.20 MPa",
+    "normal_value": "0.12 - 0.18 MPa",
+    "unit": "MPa"
+  },
+  {
+    "sensor_id": "LT-RPV",
+    "sensor_type": "原子炉水位計",
+    "location": "圧力容器",
+    "measurement_range": "-5000 - +5000 mm (基準点から)",
+    "resolution": "10 mm",
+    "alarm_setpoint": "低: L-3 (+3500mm), 低低: L-2 (+1500mm), 低低低: L-1 (-500mm)",
+    "normal_value": "+4000 mm",
+    "unit": "mm"
+  },
+  {
+    "sensor_id": "RM-OFFGAS",
+    "sensor_type": "主蒸気管ガスモニタ",
+    "location": "タービン系主蒸気管",
+    "measurement_range": "1E-3 - 1E+5 μSv/h",
+    "resolution": "±10%",
+    "alarm_setpoint": "高: バックグラウンドの2倍",
+    "normal_value": "~10 μSv/h",
+    "unit": "μSv/h"
+  },
+  {
+    "sensor_id": "RM-COOLANT",
+    "sensor_type": "冷却材放射能モニタ",
+    "location": "原子炉冷却材浄化系",
+    "measurement_range": "1E-3 - 1E+3 Bq/cm³",
+    "resolution": "±10%",
+    "alarm_setpoint": "高: 通常値の3倍",
+    "normal_value": "~0.1 Bq/cm³ (I-131 相当)",
+    "unit": "Bq/cm³"
+  },
+  {
+    "sensor_id": "RM-SFP",
+    "sensor_type": "使用済燃料プール放射線モニタ",
+    "location": "使用済燃料プール上部",
+    "measurement_range": "1E-2 - 1E+4 μSv/h",
+    "resolution": "±10%",
+    "alarm_setpoint": "高: バックグラウンドの3倍",
+    "normal_value": "~1 μSv/h",
+    "unit": "μSv/h"
+  },
+  {
+    "sensor_id": "CHEM-FP",
+    "sensor_type": "核分裂生成物濃度分析",
+    "location": "冷却材サンプリング系",
+    "measurement_range": "I-131: 0.01 - 1000 Bq/cm³",
+    "resolution": "0.01 Bq/cm³",
+    "alarm_setpoint": "運転制限値: 2.6E+4 Bq/cm³ (等価I-131)",
+    "normal_value": "< 0.37 Bq/cm³",
+    "unit": "Bq/cm³"
+  },
+  {
+    "sensor_id": "VIB-RPV",
+    "sensor_type": "原子炉圧力容器振動計",
+    "location": "圧力容器外面",
+    "measurement_range": "0 - 500 μm",
+    "resolution": "1 μm",
+    "alarm_setpoint": "高: ベースラインの2倍",
+    "normal_value": "< 50 μm",
+    "unit": "μm"
+  },
+  {
+    "sensor_id": "FT-CORE",
+    "sensor_type": "炉心流量計",
+    "location": "再循環ループ / インターナルポンプ",
+    "measurement_range": "0 - 120% 定格流量",
+    "resolution": "0.5%",
+    "alarm_setpoint": "低: 85%, 高: 115%",
+    "normal_value": "100%",
+    "unit": "% rated flow"
+  }
+]
